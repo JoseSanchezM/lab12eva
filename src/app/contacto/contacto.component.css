@@ -1,0 +1,92 @@
+.contacto-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f9f9f9;
+  }
+  
+  .contacto-container h2 {
+    font-size: 2rem;
+    color: #333333;
+  }
+  
+  .contacto-container p {
+    color: #666666;
+    font-size: 1.1rem;
+  }
+  
+  .contacto-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .mapa {
+    width: 50%;
+  }
+  
+  .contacto-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+  }
+  
+  .contacto-form input, .contacto-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .contacto-form button {
+    background-color: #ff4444;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contacto-form button:hover {
+    background-color: #e63939;
+  }
+  
+  .footer-contacto {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-top: 40px;
+  }
+  
+  .info h4 {
+    color: #ff4444;
+  }
+  
+  .social-links a {
+    margin: 0 5px;
+  }
+  
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-card {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .contact-card h5 {
+    color: #ff4444;
+    margin-bottom: 10px;
+  }
+  
+  .contact-card p {
+    color: #cccccc;
+  }
+  

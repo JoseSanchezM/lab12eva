@@ -1,0 +1,46 @@
+.servicios-container {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px;
+  }
+  
+  .servicios-container h2 {
+    color: #ffffff;
+    font-size: 2rem;
+  }
+  
+  .servicios-container p {
+    color: #cccccc;
+    font-size: 1.1rem;
+  }
+  
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .servicio-card {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .servicio-card .icono {
+    font-size: 2rem;
+    color: #ff4444;
+    margin-bottom: 10px;
+  }
+  
+  .servicio-card h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .servicio-card p {
+    color: #cccccc;
+  }
+  
